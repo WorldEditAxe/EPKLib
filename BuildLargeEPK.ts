@@ -4,8 +4,6 @@ const path = require("path");
 const fs = require("fs/promises");
 const fsSync = require("fs");
 
-const HASH_SEED = 235478628974;
-
 type LEPKDirectoryFileRaw = {
   filename: string;
   segments: string[];
