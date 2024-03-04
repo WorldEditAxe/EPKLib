@@ -1,5 +1,4 @@
-import * as crypto from "crypto";
-
+const crypto = require("crypto");
 const path = require("path");
 const fs = require("fs/promises");
 const fsSync = require("fs");
