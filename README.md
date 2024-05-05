@@ -2,7 +2,7 @@
 A TypeScript library that splits a huge file into multiple segments to be uploaded to a hosting platform with filesize restrictions.
 ## Usage
 ### BuildLargeEPK.ts
-Requires Node.js of version >= 12.
+Requires Node.js of version >= 12. Optionally requires TypeScript installed on your computer, but you can use the [online compiler](https://typescriptlang.org/play) instead if you really don't want to install TypeScript for whatever reason
 ```
 usage: node BuildLargeEPK.js <inFile: path> <outDir: path> <maxFileSize: number>
 ```
